@@ -1,0 +1,28 @@
+.header-container{
+  display: flex;
+  background-color: #333;
+  width: 100vw;
+  padding: 10px auto;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+}
+
+.logo{
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'New Tegomin', serif;
+}
+
+.right-side-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  width: 30%;
+}

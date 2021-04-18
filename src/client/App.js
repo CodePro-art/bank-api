@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
 import './app.css';
-import ReactImage from './react.png';
 
 export default class App extends Component {
   state = { username: null };
@@ -14,9 +16,11 @@ export default class App extends Component {
   render() {
     const { username } = this.state;
     return (
-      <div>
+      <div className="page-container">
+        <Header/>
         {username ? <h1>{`Hello ${username}`}</h1> : <h1>Loading.. please wait!</h1>}
-        <img src={ReactImage} alt="react" />
+        <Main/>
+        <Footer/>
       </div>
     );
   }
