@@ -38,8 +38,8 @@ router.put('/transfer/:src/:dst', function (req, res) {
 })
 
 // DELETE: remove 
-router.delete('/', function (req, res) {
-  res.send('Got a DELETE request at /user')
+router.delete('/remove/:id', function (req, res) {
+  userController.removeUser(req,res);
 })
 
 module.exports = router;

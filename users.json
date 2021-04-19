@@ -1,0 +1,100 @@
+[
+  {
+    "id": "0",
+    "name": "Netanel",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "1",
+    "name": "Zehava",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "2",
+    "name": "Mirale",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "3",
+    "name": "David",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "4",
+    "name": "Yanna",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "5",
+    "name": "Foad",
+    "cash": -750,
+    "credit": 1200,
+    "isActive": true
+  },
+  {
+    "id": "6",
+    "name": "Shir",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "7",
+    "name": "Talya",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "8",
+    "name": "Gilad",
+    "cash": 0,
+    "credit": 160,
+    "isActive": true
+  },
+  {
+    "id": "9",
+    "name": "Guy",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "10",
+    "name": "Michael",
+    "cash": 1750,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "11",
+    "name": "Osama",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "12",
+    "name": "Eyal Dar",
+    "cash": 0,
+    "credit": 0,
+    "isActive": true
+  },
+  {
+    "id": "25",
+    "name": "Ambrello Umeni",
+    "cash": 10000,
+    "credit": 2000,
+    "isActive": true
+  }
+]
