@@ -17,8 +17,7 @@ export default class App extends Component {
     const { username } = this.state;
     return (
       <div className="page-container">
-        <Header/>
-        {username ? <h1>{`Hello ${username}`}</h1> : <h1>Loading.. please wait!</h1>}
+        <Header user={username ? username : "Loading.. please wait!"}/>
         <Main/>
         <Footer/>
       </div>

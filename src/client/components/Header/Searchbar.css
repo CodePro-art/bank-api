@@ -1,16 +1,23 @@
 .searchbar-container{
   display: flex;
   justify-content: center;
-  padding: 15px 0px;
+  align-self: center;
+  padding: 5px 0px;
+  height: 35px;
+  width: 60%;
 }
-.searchbar-container>*{
-  margin: 5px 0px;
-}
+
 .search-input{
   width: 80%;
   outline: 0;
-  padding: 0px 8px;
-  font-size: 1.3rem;
+  padding: 0px 4px;
+  font-size: 1.1rem;
   font-family: 'Quicksand', sans-serif;
   border: 1px solid #888;
+}
+
+.search-btn{
+  background-color: transparent;
+  border: none;
+  color: #fff;
 }

@@ -5,7 +5,6 @@
   padding: 10px auto;
 }
 
-
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -16,6 +15,7 @@
 .logo{
   font-size: 2rem;
   color: #fff;
+  align-self: center;
   font-family: 'New Tegomin', serif;
 }
 
@@ -24,5 +24,5 @@
   align-items: center;
   justify-content: space-evenly;
   font-size: 1rem;
-  width: 30%;
+  width: 20%;
 }
