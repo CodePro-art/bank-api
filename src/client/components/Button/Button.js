@@ -4,7 +4,7 @@ import './Button.css'
 export default class Button extends Component {
   render() {
     return (
-      <button className="bank-btn">
+      <button className={"bank-btn "+`${this.props.class}`} onClick={this.props.func}>
         {this.props.content}
       </button>
     )

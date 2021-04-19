@@ -1,40 +1,57 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+import Button from '../Button/Button';
 import './Table.css';
 
 export default class Table extends Component {
 
   state = { 
-    users: [
-      { id: 1, name: 'Wasif', age: 21, email: 'wasif@email.com' },
-      { id: 2, name: 'Ali', age: 19, email: 'ali@email.com' },
-      { id: 3, name: 'Saad', age: 16, email: 'saad@email.com' },
-      { id: 4, name: 'Asad', age: 25, email: 'asad@email.com' }
-    ]
+    users: [{}]
   }
- 
+
+  componentDidMount(){
+    const users = [];
+    axios.get('/api/users').then(res =>{
+      res.data.forEach(u => users.push(u));
+      this.setState({users: users})
+    }).catch(function (error) {console.log(error)});
+  }
+
   renderTableHeader = () => {
     let header = Object.keys(this.state.users[0])
-    return header.map((key, index) => {
-      return <th key={index}>{key.toUpperCase()}</th>
-    })
+    return header.map((key, index) => key==="isActive" ? <th key={index}>{"ACTION"}</th> :<th key={index}>{key.toUpperCase()}</th>)
   }
+
+  eventhandler = () => {
+    axios.get('/api/users').then(res =>{
+      res.data.forEach(u => users.push(u));
+      this.setState({users: users})
+    }).catch(function (error) {console.log(error)});
+  }
+
   renderTableData = () => {
-    return this.state.users.map((student, index) => {
-      const { id, name, age, email } = student //destructuring
+    return this.state.users.map((user,index) => {
+      const { id, name, cash, credit } = user //destructuring
       return (
-          <tr key={id}>
-            <td>{id}</td>
-            <td>{name}</td>
-            <td>{age}</td>
-            <td>{email}</td>
-          </tr>
+        <tr key={index}>
+          <td>{id}</td>
+          <td>{name}</td>
+          <td>{cash}</td>
+          <td>{credit}</td>
+          <td>
+            <input className="value-input" type="text" placeholder="amount..."/>
+            <Button class={"deposit"} content={"deposit"} func={this.eventhandler}/>
+            <Button class={"withdraw"} content={"withdraw"} func={this.eventhandler}/>
+            <Button class={"remove"} content={"remove"} func={this.eventhandler}/>
+          </td>
+        </tr>
       )
     })
    }
 
   render() {
     return (
-      <div>
+      <div className="table-container">
         <h1 className='title'>Table of clients</h1>
         <table className='users'>
           <tbody>

@@ -2,99 +2,99 @@
   {
     "id": "0",
     "name": "Netanel",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "1",
     "name": "Zehava",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "2",
     "name": "Mirale",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "3",
     "name": "David",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "4",
     "name": "Yanna",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "5",
     "name": "Foad",
-    "isActive": true,
     "cash": -1200,
-    "credit": 1200
+    "credit": 1200,
+    "isActive": true
   },
   {
     "id": "6",
     "name": "Shir",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "7",
     "name": "Talya",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "8",
     "name": "Gilad",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "9",
     "name": "Guy",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "10",
     "name": "Michael",
-    "isActive": true,
     "cash": 2200,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "11",
     "name": "Osama",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "12",
     "name": "Eyal Dar",
-    "isActive": true,
     "cash": 0,
-    "credit": 0
+    "credit": 0,
+    "isActive": true
   },
   {
     "id": "25",
     "name": "Ambrello Umeni",
-    "isActive": true,
     "cash": 10000,
-    "credit": 2000
+    "credit": 2000,
+    "isActive": true
   }
 ]
